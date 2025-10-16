@@ -7,4 +7,4 @@ COPY dist/output.css /var/www/html/dist/
 
 RUN a2enmod rewrite
 
-EXPOSE 80
+EXPOSE 8082
